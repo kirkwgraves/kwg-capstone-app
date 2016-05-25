@@ -29,9 +29,10 @@
         "kestrel": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5004"
     },
 
-    "frameworks": {
-        "dnxcore50": { }
-    },
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
 
     "exclude": [
         "wwwroot",
