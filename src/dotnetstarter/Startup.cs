@@ -1,13 +1,16 @@
 ﻿using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 
-public class Startup
+namespace CapstoneApp
 {
-	public void Configure(IApplicationBuilder app)
-	{
-		app.UseDefaultFiles();
-		app.UseStaticFiles();
+    public class Startup
+    {
+        public void Configure(IApplicationBuilder app)
+        {
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+        }
+
+        public static void Main(string[] args) => WebApplication.Run(args);
     }
-    
-    public static void Main(string[] args) => WebApplication.Run(args);
 }

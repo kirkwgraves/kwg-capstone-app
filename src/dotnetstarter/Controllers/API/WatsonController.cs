@@ -1,13 +1,12 @@
-﻿using Microsoft.AspNet.Mvc;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Mvc;
 
-namespace dotnethelloworld.Controllers.API
-{
+
     public class WatsonController: Controller
     {
 
     }
-}
+

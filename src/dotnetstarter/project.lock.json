@@ -1899,6 +1899,15 @@
           "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
         }
       },
+      "NAudio/1.7.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/NAudio.dll": {}
+        },
+        "runtime": {
+          "lib/net35/NAudio.dll": {}
+        }
+      },
       "Newtonsoft.Json/6.0.6": {
         "type": "package",
         "compile": {
@@ -6893,6 +6902,15 @@
           "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
         }
       },
+      "NAudio/1.7.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/NAudio.dll": {}
+        },
+        "runtime": {
+          "lib/net35/NAudio.dll": {}
+        }
+      },
       "Newtonsoft.Json/6.0.6": {
         "type": "package",
         "compile": {
@@ -9021,6 +9039,15 @@
         },
         "runtime": {
           "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
+        }
+      },
+      "NAudio/1.7.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/NAudio.dll": {}
+        },
+        "runtime": {
+          "lib/net35/NAudio.dll": {}
         }
       },
       "Newtonsoft.Json/6.0.6": {
@@ -17494,6 +17521,21 @@
         "ref/net46/Microsoft.Win32.Registry.dll"
       ]
     },
+    "NAudio/1.7.3": {
+      "type": "package",
+      "sha512": "RfjCKqewCJ7OhVRqkVgiJv5ByPzPk5YWElyC7jLqcV2a9777HDGU00kmVzoMV9gbcNiTJn9ijVrTAgq4GeQP2w==",
+      "files": [
+        "lib/net35/NAudio.dll",
+        "lib/net35/NAudio.XML",
+        "lib/windows8/NAudio.Win8.dll",
+        "lib/windows8/NAudio.Win8.XML",
+        "license.txt",
+        "NAudio.1.7.3.nupkg",
+        "NAudio.1.7.3.nupkg.sha512",
+        "NAudio.nuspec",
+        "readme.txt"
+      ]
+    },
     "Newtonsoft.Json/6.0.6": {
       "type": "package",
       "sha512": "w26uZNyCG5VeoKiEOJ4+9/o8koSofLKwHl7WLreIcp0U6r57L7WiRXmjp8MTKFw6dYNZ9AE0lw69WYbIhUsU9Q==",
@@ -21813,7 +21855,9 @@
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final"
     ],
-    "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.1": [
+      "NAudio >= 1.7.3"
+    ],
     "DNXCore,Version=v5.0": []
   }
 }
