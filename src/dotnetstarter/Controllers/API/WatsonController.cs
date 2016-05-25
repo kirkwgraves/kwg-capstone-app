@@ -2,11 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using NAudio.Wave;
 using Microsoft.AspNet.Mvc;
 
-
-    public class WatsonController: Controller
+namespace CapstoneApp.Controllers.API
+{
+    public class WatsonController : Controller
     {
+        public void Post ([FromBody]string text)
+        {
+            // Logic to make API call to Watson service using credentials and 
+            // text string from request body
 
+            // Receive wav audio stored in byte array - figure our how to convert
+            // byte array into wav file using NAudio or some library
+
+            // Figure out how to play newly created .wav file for user 
+        }
     }
-
+}
