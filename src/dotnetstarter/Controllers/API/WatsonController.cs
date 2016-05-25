@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NAudio.Wave;
 using Microsoft.AspNet.Mvc;
 
 namespace CapstoneApp.Controllers.API
@@ -15,7 +14,7 @@ namespace CapstoneApp.Controllers.API
             // text string from request body
 
             // Receive wav audio stored in byte array - figure our how to convert
-            // byte array into wav file using NAudio or some library
+            // byte array into wav file using a library compatible with .NET Core (5.0)
 
             // Figure out how to play newly created .wav file for user 
         }
