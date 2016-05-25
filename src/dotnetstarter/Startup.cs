@@ -8,6 +8,8 @@ using Newtonsoft.Json.Serialization;
 
 public class Startup
 {
+    public static IConfigurationRoot Configuration { get; set; }
+
     public Startup(IHostingEnvironment env)
     {
         // Set up configuration sources.
@@ -30,7 +32,6 @@ public class Startup
         Configuration = builder.Build();
     }
 
-    public static IConfigurationRoot Configuration { get; set; }
 
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
